@@ -4,9 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet"  href="./style.css">
-    <title>Document</title>
+    <title>Sign-up Form</title>
 </head>
 <body>
-    
+    <div class="Sidebar">
+        <p>Sidebar Logo</p>
+        <img src="https://images.unsplash.com/photo-1585202900225-6d3ac20a6962">
+    </div>
+    <div>
+        <p>
+            This is not a real online service! You know you need something
+            like this in your life to help you realize your deepest dreams.
+            Sign up <em>now</em> to get started.
+        </p>
+        <p>
+            You <em>know</em> you want to.
+        </p>
+    </div>
+    <form action="" method="post">
+        <h3>Let's do this!</h3>
+        <p>
+          <label for="name">First Name</label>
+          <input type="text" id="first_name" name="user_first_name" />
+        </p>
+        <p>
+            <label for="name">Last Name</label>
+            <input type="text" id="last_name" name="user_last_name" />
+          </p>
+        <p>
+          <label for="mail">Email</label>
+          <input type="email" id="mail" name="user_email" />
+        </p>
+        <p>
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="user_phone" />
+        </p>
+        <p>
+            <label for="pwd">Password</label>
+            <input type="password" id="pwd" name="user_pwd" />
+        </p>
+        <p>
+            <label for="pwd_confirm">Confirm Password</label>
+            <input type="password" id="pwd_confirm" name="user_pwd_confirm" />
+        </p>
+        <p class="button">
+          <button type="submit">Create Account</button>
+        </p>
+        <p>Already have an account? Log in</p>
+      </form>
 </body>
 </html>
